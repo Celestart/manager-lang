@@ -1,0 +1,163 @@
+{
+
+
+
+    "lang_version":     2,
+
+    "lang_revision":    "dev0",
+
+    "lang_name":        "Franais",
+
+    "lang_short":       "fr_FR",
+
+
+
+    "shared": {
+
+
+
+        "errorGeneric":         "Something went wrong.",
+
+        "errorNoPermission":    "You do not have permission to do that.",
+
+        "errorConfigNotFound":  "Something went wrong while fetching this servers configuration.",
+
+
+
+		"configFlushed":		"Cache for server $1 flushed.",
+
+		"errorShutdownGrace":	"Sorry, You cannot perform this action right now. Try again in a minute or two."
+
+
+
+    },
+
+
+
+    "channel": {
+
+
+
+        "dataFetching":         ":black_circle: Récupération des données...",
+
+        "dataCreating":         ":black_circle: Création du Salon...",
+
+        "roomCreated":          ":large_blue_circle: Salon Créer!",
+
+        "roomAlreadyExists":    ":warning: Vous avez déjà un Salon de créer quelque-part!",
+
+        "roomRevoked":          ":large_blue_circle: Salon supprimé!",
+
+        "roomRevokedInactive":  "Votre salon a été supprimé vous pouvez en réinvoqué un avec `$1`",
+
+        "roomName":             "Salon Privé de [$1]",
+
+        "roomErrorDisabled":    "Les salons privé sont désactivé sur ce serveur.",
+
+        "roomErrorLimit":       "Désolé, vous ne pouvez pas créer de salon privée pour le moment..",
+
+        "roomErrorNotAllowed":  "Vous n'êtes pas autorisé a créé un Salon privée",
+
+
+
+        "roomRenamed":          "Salon renommé en: `$1`",
+
+        "roomRenameDisabled":   "Vous ne pouvez pas renommé de Salon sur ce serveur.",
+
+        "roomNoNameSpecified":  "Vous denez spécifié un nom!",
+
+
+
+        "revokeComplete":       ":cyclone: Salon supprimé!",
+
+        "revokeError":          ":no_good: Quelque chose s'est mal passé lors de la révocation de votre salon.",
+
+        "revokeNotGuild":        "Vous ne pouvez révoquer votre chambre qu'à partir d'un serveur.",
+
+        "revokeNoRoom":         ":warning: You have no room!",
+
+
+
+        "roomUserAdded":        "Added $1 to your room.",
+
+        "roomUserRemoved":      "Removed $1 from your room.",
+
+        "roomUserBlocked":      "Blocked $1 from your room.",
+
+        "roomNoAdded":			"No changes were made.",
+
+        "roomMadePublic":       "Anyone can now join your room.",
+
+        "roomNotPublic":        "Only added members can join your room now.",
+
+
+
+        "userWhitelistAdd":     "$1 is now on your whitelist.",
+
+        "userWhitelistRevoke":  "$1 is no longer on your whitelist.",
+
+        "userWhitelistReset":   "Your whitelist has been reset.",
+
+        "userBlacklistAdd":     "$1 is now on your blacklist.",
+
+        "userBlacklistRevoke":  "$1 is no longer on your blacklist.",
+
+        "userBlacklistReset":   "Your blacklist has been reset.",
+
+
+
+        "errorRoomsDisabled":   "Private Rooms are disabled on this server.",
+
+        "errorNotGuild":        "Rooms can only be summoned from a server."
+
+    },
+
+
+
+    "music": {
+
+
+
+        "MusicNoURL":           ":warning: You need to provide a valid URL!",
+
+        "MusicNovoiceCon":      ":warning: You need to be in a Voice Channel!",
+
+        "MusicNoPermission":    "You do not have permission to do that.",
+
+
+
+        "MusicDifferentChannel":"You cannot vote to skip without being in the channel.",
+
+        "MusicVoteProgress":    "You voted to skip the current video `$1`",
+
+        "MusicVoteAlreadyVoted":"You voted to skip the current video `$1`",
+
+        "MusicVoteCompleted":   "The current song has been skipped. `$1`",
+
+
+
+        "MusicAddedToQueue":    "Added `$1` To the queue.",
+
+        "MusicNowPlaying":      "Now Playing",
+
+        "MusicRequestedBy":     "Requested By",
+
+        "MusicVideoLength":     "Length",
+
+
+
+        "errorGeneric":         "Something went wrong.",
+
+        "errorConfigNotFound":  "Something went wrong while fetching this guilds configuration.",
+
+        "errorMusicDisabled":   "Music Rooms are disabled on this guild.",
+
+        "errorNotGuild":        "Music can only be played from a guild."
+
+
+
+    }
+
+
+
+}
